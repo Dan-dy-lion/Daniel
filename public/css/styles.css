@@ -1,0 +1,75 @@
+/* Navbar */
+.navbar-custom {
+    background-color: #da0037;
+    border-radius: 25px;
+    width: 800px;
+    z-index: 100;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .navbar-custom .nav-link.active {
+    background-color: #EDEDED;
+    color: #444444;
+  }
+  
+  .navbar-custom .nav-link {
+    color: #EDEDED;
+  }
+  
+  .navbar-brand {
+    color: #EDEDED;
+  }
+  
+  /* Jumbotron */
+  .custom-container {
+    background-image: url(../assets/images/tenniscourts3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .text-shadow {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+  }
+  
+  .custom-text {
+    color: #EDEDED;
+    font-family: 'Rubik', sans-serif;
+  }
+
+    /* Body */
+
+    .body-background {
+        background: linear-gradient(to bottom, #444444 60%, #da0037 25%);
+    }
+
+    .icon-square {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.75rem;
+    }
+
+    .btn-danger {
+        background-color: #da0037 !important;
+    }
+
+    /* Footer */
+
+  /* Media Queries */
+  @media (max-width: 576px) {
+    .navbar-custom {
+      width: 100%;
+      left: 0;
+      transform: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-container {
+      background-position: center;
+    }
+  }
+  
